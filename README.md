@@ -1,59 +1,82 @@
-# 🌍 WanderPlan - Travel Journey Planner
 
-**WanderPlan** is a smart travel journey planner that helps users discover top Indian destinations, generate personalized multi-day itineraries, calculate travel budgets, and view weather forecasts — all in one sleek web application.
+# 🌍 WanderPlan – Travel Journey Planner
+
+WanderPlan is a smart travel planner web app that helps users:
+- ✈️ Plan trips with auto-generated itineraries.
+- 💸 Estimate budgets based on destination, duration, and budget type.
+- ☀️ View real-time weather forecasts for popular travel spots.
+- 🗺️ Explore trending destinations across India.
 
 ---
 
 ## 🚀 Features
 
-- ✈️ **Trip Planner**: Select a destination and number of days, and get a tailored, day-wise itinerary with sightseeing, food, and cultural activities.
-- 🏨 **Budget Estimator**: Get a breakdown of travel costs including accommodation, food, transport, shopping, and activities for each destination.
-- ☀️ **Weather Widget**: View real-time weather data and 5-day forecasts for popular Indian cities.
-- 🗺️ **Destination Explorer**: View beautiful images and highlights of top travel spots like Goa, Jaipur, Kerala, Manali, and more.
-- 🔐 **Sign-In Modal**: Users are prompted to sign in before generating a plan (Sign-in via Google or custom form coming soon).
-- 🎨 **Modern UI/UX**: Built with Tailwind CSS and Lucide icons for a clean and responsive experience.
+- 📍 **Popular Destinations Explorer**
+- 🧭 **Auto Itinerary Generator**
+- 📊 **Budget Estimator**
+- ☁️ **Weather Forecast**
+- 🔐 Optional **Sign-in functionality**
 
 ---
 
-## 🛠 Tech Stack
+## 🖥️ Screenshots
 
-| Frontend      | Backend     | APIs/Tools         |
-|---------------|-------------|--------------------|
-| React + Vite  | Flask       | Google Maps API )  |
-| Tailwind CSS  | Python      | Lucide Icons       |
-| React Router  |             |                    |
+### 🏠 Home Page
+![Main Page](./main%20page.png)
+
+### 🗺️ Popular Destinations
+![Destinations Page](./destinations%20page.png)
+
+### 🧾 Budget Planner
+![Budget Planner Page](./buget%20planner%20page.png)
+
+### 📅 Trip Planner
+![Trip Planner Page](./trip%20planner%20page.png)
+
+### ☁️ Weather Forecast
+![Weather Page](./weather%20page.png)
 
 ---
 
-## 📁 Folder Structure
+## 📦 Tech Stack
+
+- **Frontend**: React + Tailwind CSS + TypeScript
+- **Backend**: Flask (Python)
+- **APIs Used**: Google Maps API (optional), Weather data (static/demo)
+
+---
+
+## 📂 Project Structure
+
+```
 wanderplan/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── Header.tsx
-│ │ ├── TripPlanner.tsx
-│ │ ├── BudgetCalculator.tsx
-│ │ ├── WeatherWidget.tsx
-│ │ ├── SignInModal.tsx
-│ ├── App.tsx
-│ ├── main.tsx
-├── backend/ (optional Flask app for itinerary AI)
+├── frontend/
+│   ├── src/
+│   ├── public/
+├── backend/
+│   └── app.py
 ├── README.md
-├── package.json
-├── tailwind.config.js
+```
 
-✨ Future Enhancements
-Google Authentication
+---
 
-Save itineraries to user profile
+## 💡 How to Add Your Own Screenshots
 
-Real API integration for weather and maps
+1. Place images in the project directory or `assets/` folder.
+2. Reference them in markdown like this:
 
-Download itinerary as PDF
+```md
+![Description](./relative-path-to-image.png)
+```
 
-Multi-country support
+---
 
-👩‍💻 Author
-Dhanashri Rahul Dange
+## 👨‍💻 Author
 
-Final Year Computer Engineering Student
+Dhanashri Rahul Dange – [Final Year Computer Engineering Student]
+
+---
+
+## 📜 License
+
+This project is for educational use only.
