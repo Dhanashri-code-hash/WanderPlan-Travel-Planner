@@ -56,19 +56,6 @@ wanderplan/
 ├── backend/
 │   └── app.py
 ├── README.md
-```
-
----
-
-## 💡 How to Add Your Own Screenshots
-
-1. Place images in the project directory or `assets/` folder.
-2. Reference them in markdown like this:
-
-```md
-![Description](./relative-path-to-image.png)
-```
-
 ---
 
 ## 👨‍💻 Author
