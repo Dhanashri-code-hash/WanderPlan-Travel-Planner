@@ -44,11 +44,9 @@ WanderPlan is a smart travel planner web app that helps users:
 - **Backend**: Flask (Python)
 - **APIs Used**: Google Maps API (optional), Weather data (static/demo)
 
----
 
 ## 📂 Project Structure
 
-```
 wanderplan/
 ├── frontend/
 │   ├── src/
@@ -56,13 +54,10 @@ wanderplan/
 ├── backend/
 │   └── app.py
 ├── README.md
----
 
 ## 👨‍💻 Author
 
 Dhanashri Rahul Dange – [Final Year Computer Engineering Student]
-
----
 
 ## 📜 License
 
